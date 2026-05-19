@@ -11,7 +11,8 @@ spec:
       app: counter-backend
   template:
     metadata:
-      labels: counter-backend
+      labels:
+        app: counter-backend
     spec:
       containers:
         - name: counter-backend
