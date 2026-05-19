@@ -38,6 +38,6 @@ spec:
                 secretKeyRef:
                   name: counter-database
                   key: database-name
-            - volumeMounts:
-              - name: counter-database
-                mountPath: /var/lib/pgsql/data
+          volumeMounts:
+            - name: counter-database-data
+              mountPath: /var/lib/pgsql/data
