@@ -22,4 +22,6 @@ spec:
               value: ""
             - name: BACKEND_URL
               value: ""
+            - name: npm_config_cache
+              value: ./.npm-cache
 # 264574-ebholi
